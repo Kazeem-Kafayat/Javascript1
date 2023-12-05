@@ -25,27 +25,13 @@ addNum(10, 30);
 //returns 6. i.e 1+2+3.
 
 
-//function add(start, end) {
-//let sum = 0;
-//for (let i = start; i <= end; i++) {
-//  sum += i;
+function add(start, end) {
+    let sum = 0;
+    for (let i = start; i <= end; i++) {
+        sum += i;
 
-//}
-//return sum;
-//}
-//let result = add(10, 30);
-//console.log(result);
-
-function factorial(num) {
-    let result = 1;
-    for (let y = 1; y <= num; y++) {
-        result *= y
     }
-    return result;
+    return sum;
 }
-let result = factorial(6)
+let result = add(10, 30);
 console.log(result);
-
-//function factorial(num) {
-//   return num;
-//}
