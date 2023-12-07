@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 30vh;
+    width: 40%;
+    background-color: rgb(166, 255, 0);
+    margin: 40px auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1,
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 25%;
+    height: 30px;
+}
+
+#btn {
+    height: 25px;
+    border-radius: 5px;
+    width: 20%;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#response {
+    margin-right: 15%;
+}
